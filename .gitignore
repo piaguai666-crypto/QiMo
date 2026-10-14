@@ -1,0 +1,56 @@
+# ---- Build output ----
+build/
+build-*/
+out/
+cmake-build-*/
+
+# ---- CMake generated ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Makefile
+CMakeUserPresets.json
+*.cmake.stamp
+
+# ---- Qt Creator ----
+*.user
+*.user.*
+.qtcreator/
+
+# ---- Qt generated sources ----
+moc_predefs.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*_autogen/
+*_qmltyperegistrar_*.json
+.qmake.stash
+
+# ---- Compiled objects / libraries / binaries ----
+*.o
+*.obj
+*.lo
+*.slo
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.app
+*.pdb
+*.ilk
+*.exp
+
+# ---- IDE / editors ----
+.vscode/
+.idea/
+*.autosave
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
